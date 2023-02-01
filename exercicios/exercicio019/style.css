@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+em html id vira # em css e só pode usar um elemento
+em html class vira . em css pode ser usado em vários elementos
+*/
+
+
+body {
+    background-color: rgb(240, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(70, 15, 15);
+}
+#principal {
+    text-align: center;
+    background-color: rgb(70, 15, 15);
+    color: white;
+}
+.basico {
+    color: rgb(241, 64, 64);
+}
+.intermed {
+    color: rgb(124, 31, 31);
+}
+.ava {
+    color: rgb(37, 6, 6);
+    font-weight: bolder;
+}
+h2 {
+    color: rgb(163, 8, 8);
+}
+.destaque {
+    background-color: rgb(57, 169, 235);
+}
