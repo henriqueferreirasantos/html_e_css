@@ -19,6 +19,7 @@
             border-collapse: collapse;
             margin: auto;
             background-color: white;
+            position: relative;
             
         }
         caption {
@@ -31,6 +32,12 @@
             border: 1px solid black;
             padding: 10px;
            
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(26, 22, 22);
+
         }
         tbody > tr:nth-child(2n) {/*odd = impar / even = par*/
             background-color: rgb(175, 164, 164);
@@ -185,5 +192,6 @@
             </tr>
         </tfoot>
     </table>
+    
 </body>
 </html>
